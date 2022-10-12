@@ -476,6 +476,7 @@ img {
 }
 .address-box {
   width: 231px;
+  flex-grow: 1;
 }
 
 .flex-footer {
@@ -790,7 +791,9 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
+
   transition: transform 450ms var(--timing-fucnction);
+   padding: 40px;
 }
 
 .backdrop.is-hidden .modal {
